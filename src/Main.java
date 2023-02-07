@@ -13,7 +13,10 @@ public class Main {
             for (int i = 1; i <=san; i++) {
                 san2*=i;
             }
-            System.out.println(san2);
+            if(san<1){
+            }else{
+                System.out.println(san2);
+            }
         }catch (ArithmeticException a){
             if(san<1){
                 System.out.println(a.getMessage());
